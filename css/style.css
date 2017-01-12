@@ -1,0 +1,60 @@
+/*
+selector {
+  property:value;
+}
+*/
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  background:white;
+}
+
+body {
+  background: url('http://img.archiexpo.com/images_ae/photo-g/4363-9171042.jpg');
+  background-size:cover;
+  color: #fff;
+}
+ 
+img {
+  max-width: 512px;
+}
+  
+#crop-circle {
+  border-radius: 12.5em;
+}
+
+header, footer {
+  height: 128px;
+  width: 100%;
+  padding: 32px;
+  background: black;
+  color: orange;
+  font-size: 30px;
+  text-align: center;
+}
+
+nav {
+  width:20%;
+  height: 1024px;
+  padding-left: 5%;
+  background: grey;
+  color: black;
+  float: left;
+}
+
+section {
+  width: 75%;
+  height: 1024px;
+  background: white;
+}
+
+footer {
+  clear: both;
+}
+
+#standard-paragraph-1 {
+  x
+}
