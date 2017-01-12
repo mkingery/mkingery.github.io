@@ -5,11 +5,12 @@ selector {
 */
 a {
   color: black;
+  font-family: sans-serif;
   text-decoration: none;
 }
 
 a:hover {
-  background:white;
+  background: orange;
 }
 
 body {
@@ -19,15 +20,18 @@ body {
 }
  
 img {
-  max-width: 512px;
+  max-width: 256px;
+  float: center;
 }
   
 #crop-circle {
   border-radius: 12.5em;
+  float: center;
 }
 
 header, footer {
   height: 128px;
+  font-family: sans-serif;
   width: 100%;
   padding: 32px;
   background: black;
@@ -45,16 +49,28 @@ nav {
   float: left;
 }
 
+#inset {
+	width: auto;
+	height: auto;
+	padding: 1cm 1cm 1cm 1cm;
+}
+
 section {
-  width: 75%;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: larger;
   height: 1024px;
-  background: white;
+  background: lightgrey;
 }
 
 footer {
   clear: both;
 }
 
+text {
+	color: black;
+}
+
 #standard-paragraph-1 {
-  x
+  color: black;
 }
