@@ -10,15 +10,18 @@ header {
 	background-image: url('img/bg1.jpg');
 	background-position-y: 950px;
 	background-size: cover;
-	width: 100%;
 	text-align: center;
 }
 
 h1 {
 	color: black;
 	font-size: xx-large;
-	font-weight: bolder
+	font-weight: bolder;
 	font-family: sans-serif;
+}
+
+nav {
+	text-align: center;
 }
 
 nav ul {
@@ -30,7 +33,11 @@ nav ul {
 	background-color: black;
 }
 
-nav li a {
+nav li{
+	display: inline;
+}
+
+nav ul li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -39,11 +46,12 @@ nav li a {
 	text-decoration: none;
 }
 
-nav ul li{
-	float: left;
+nav ul li a{
+	display: inline-block;
+	padding: 10px;
 }
 
-nav li a:hover {
+nav ul li a:hover {
 	text-decoration: none;
 	color: orange;
 }
@@ -75,6 +83,6 @@ header, footer {
 	padding-bottom: 24px;
 }
 
-p img {
+p, img {
 	display: none;
 }
