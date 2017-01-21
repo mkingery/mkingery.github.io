@@ -1,0 +1,23 @@
+section {
+	height: 512px;
+	color: blue;
+	paddingTop: 20px;
+	text-align: center;
+}
+
+#top {
+	background: url(http://i.imgur.com/HzZmu1H.jpg);
+	background-size: cover; 
+}
+
+#midlle {
+	background: url(file:///Volumes/Macintosh%20HD/Users/michaelkingery/Documents/Interface/Day%2001/Day3%20Bootstrap/img/bg1.jpg);
+	background-size: cover; 
+
+}
+
+#bottom {
+	background: url(/img/bg3.jpg);
+	background-size: cover; 
+
+}
