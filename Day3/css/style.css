@@ -2,6 +2,7 @@
 Hex code options are available at the following link: http://www.w3schools.com/colors/colors_picker.asp  */
 
 
+
 *{
 	font-family: 'Exo 2', sans-serif;
 }
@@ -65,4 +66,17 @@ article {
 
 #pabout {
 	#
+}
+
+@media screen and (min-width: 480px) {
+	body {
+    	background-color: lightgreen;
+    }
+    header {
+        background: yellow;
+    }
+    img {
+        border-radius: 200px;
+    }
+   
 }
